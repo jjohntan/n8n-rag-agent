@@ -50,6 +50,8 @@ services:
       - GENERIC_TIMEZONE=${GENERIC_TIMEZONE}
       - TZ=${GENERIC_TIMEZONE}
       - N8N_RESTRICT_FILE_ACCESS_TO=/files
+      - WEBHOOK_URL=${TMP_URL}
+      - N8N_WEBHOOK_URL=${TMP_URL}
     volumes:
       - n8n_data:/home/node/.n8n
       - ./local-files:/files
