@@ -1,5 +1,5 @@
 # n8n-rag-agent
-
+An automated document question-answering system built using n8n, Telegram, Google Gemini, and Supabase. The project implements Retrieval-Augmented Generation (RAG) to allow users to upload PDF documents and interact with their contents through a Telegram bot.
 
 ## 🚀Installation
 ```bash
