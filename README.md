@@ -1,19 +1,24 @@
 # n8n-rag-agent
 An automated document question-answering system built using n8n, Telegram, Google Gemini, and Supabase. The project implements Retrieval-Augmented Generation (RAG) to allow users to upload PDF documents and interact with their contents through a Telegram bot.
 
+![alt text](image/workflow.png)
+![alt text](image/chat.png)
+![alt text](image/telegrambot.png)
+
+
 ## 🚀Installation
 ```bash
 git clone https://github.com/jjohntan/n8n-rag-agent
 cd n8n-rag-agent
 ```
-### Environment setup
-```bash
-TMP_URL=your_quick_tunnel
-```
 ### Create a Quick Tunnel
 start a Quick Tunnel:
 ```bash
 cloudflared tunnel --url http://localhost:5678
+```
+### Environment setup
+```bash
+TMP_URL=your_quick_tunnel
 ```
 ### Start n8n using Docker
 ```bash
